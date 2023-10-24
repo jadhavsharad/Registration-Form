@@ -10,16 +10,17 @@
 
   <!-- Desktop -->
   <body id="desktop" class="hidden lg:block antialiased py-[5%] box-border">
-    <div class="bg-white mx-auto max-w-screen-sm  border-white rounded-[30px] border-2 shadow-2xl  overflow-hidden">
+    <div class="bg-white mx-auto max-w-screen-sm border-white rounded-[0px] border-[1.5px] shadow-2xl  overflow-hidden">
       <div class=" block ">
-        <div class=" h-36">
-          <img src="Assets/Slide 16_9 - 1.svg" class="" alt="" srcset="">
+        <div class="h-fit w-full relative bg-black">
+          <img src="Assets/Slide 16_9 - 2.svg" class="object-cover opacity-75" alt="" srcset="">
+          <div class="px-10 absolute top-1/4 mx-auto w-full">
+            <!-- <h1 id="title" class="text-4xl font-bold text-white">Data Science <br><div class="text-zinc-50">Club Presents</div></h1> -->
+            <h1 id="event-name" class="font-bold text-white py-2 text-8xl uppercase  text-center">flames</h1>
+          </div>
         </div>
-        <div class="px-10 py-6">
-          <h1 id="title" class="text-4xl font-bold">Data Science <br><div class="text-red-500">Club Presents</div></h1>
-          <h1 id="event-name" class="font-semibold py-6 text-7xl uppercase text-purple-500 text-center">event name</h1>
-          <hr>
-          <h3 class="capitalize font-semibold text-xl py-4 text-center w-full">Get Registered For The Event below</h3>
+        <div class="px-10 pt-1 pb-6">
+          <h3 class="capitalize font-semibold text-2xl py-4 text-center w-full">Get Registered For The Event below</h3>
           <div>
             <h5 class="py-1.5">Full Name</h5>
             <Input class="border-[1.5px] w-full py-1 px-4 rounded-md hover:border-red-500 focus:border-[1.5px] focus:border-blue-500 outline-none duration-150 h-12" placeholder="Enter Your Name"></Input>
@@ -35,7 +36,7 @@
             <Input class=" w-full py-1 rounded-md outline-none duration-150 h-12 file:px-5 file:py-1 file:hover:cursor-pointer" type="file"></Input>
           </div>
           <div class="pt-6">
-            <button type="submit" class="bg-gradient-to-b from-red-400 to bg-red-600 px-8 py-2 w-full text-white rounded-md font-semibold duration-300 hover:scale-[103%]">Submit</button>
+            <button type="submit" class="bg-black px-8 py-2 w-full text-white rounded-md font-semibold duration-300 hover:scale-[103%]">Submit</button>
           </div>
         </div>
       </div>
