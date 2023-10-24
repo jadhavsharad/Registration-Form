@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 #desktop{
     background:linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.8)),
-     url('Assets/Desktop\ -\ 2.svg');
+     url('/Assets/Desktop\ -\ 2.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
